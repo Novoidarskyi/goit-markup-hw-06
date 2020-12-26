@@ -532,9 +532,7 @@
               </div>
               </a>
             </li>
-
-              
-            </ul>
+                        </ul>
             </div>
       </div>
       </div>      
@@ -551,19 +549,34 @@
         <form class="modal-form" >
           <label class="field">
             <p class="name-input">Имя</p>
+            <span class="input-wrapper">
             <input class="modal-input" type="text" name="user-name">
+            <svg class="icon-modal-input" width="18" height="18">
+                <use href="./images/sprite.svg#icon-person-black"></use>
+              </svg>
+              </span>
           </label>
            <label class="field">
-            <p class="name-input">Телефон</p>
-            <input class="modal-input" type="tel" name="user-tel>
-          </label>
-           <label class="field">
-            <p class="name-input">Почта</p>
+             <p class="name-input">Телефон</p>
+             <span class="input-wrapper">
+            <input class="modal-input" type="tel" name="user-tel">
+             <svg class="icon-modal-input" width="18" height="18">
+                <use href="./images/sprite.svg#icon-phone-black"></use>
+              </svg>
+              </span>
+            </label>
+            <label class="field">
+             <p class="name-input">Почта</p>
+             <span class="input-wrapper">
             <input class="modal-input" type="email" name="user-email">
+            <svg class="icon-modal-input" width="18" height="18">
+                <use href="./images/sprite.svg#icon-email-black"></use>
+              </svg>
+              </span>
           </label>
-           <label class="field">
+            <label class="field">
             <p class="name-input">Комментарий</p>
-            <textarea name="comment" class="modal-input" ></textarea>
+            <textarea name="comment" class="modal-input textarea" ></textarea>
           </label>
           <input type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy">
           <label for="" class="modal-form-policy-text">
